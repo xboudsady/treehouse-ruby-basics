@@ -1,14 +1,10 @@
-def wait(seconds)
-    puts "Waiting..."
-    sleep seconds
-    puts "Done"
-end
+if_condition = false
+elsif_condition = false
 
-def count_to_three
-    puts 1
-    puts 2
-    puts 3
+if if_condition
+    puts "if clause"
+elsif elsif_condition
+    puts "elsif clause"
+else
+    puts "else clause"
 end
-
-count_to_three
-wait 10 
